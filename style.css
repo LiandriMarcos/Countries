@@ -20,7 +20,7 @@ main {
     width: 80vw;
     max-width: 37.5em;
     padding: 3em 2.5em;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
     top: 50vh;
     left: 50%;
@@ -279,14 +279,6 @@ footer {
 @media screen and (max-width: 380px) {
     #search-btn img {
         margin: -35px;
-    }
-    
-    .text-logo {
-        display:none;
-    }
-
-    .img-word {
-        display:none;
     }
 }
 
